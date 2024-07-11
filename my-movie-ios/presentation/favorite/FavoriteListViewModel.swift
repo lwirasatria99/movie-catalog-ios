@@ -14,9 +14,9 @@ class FavoriteListViewModel: ObservableObject {
     private let fetchFavoriteMoviesUseCase: FetchFavoritesUseCase
     
     init(fetchFavoriteMoviesUseCase: FetchFavoritesUseCase) {
-            self.fetchFavoriteMoviesUseCase = fetchFavoriteMoviesUseCase
-            fetchFavorites()
-        }
+        self.fetchFavoriteMoviesUseCase = fetchFavoriteMoviesUseCase
+        fetchFavorites()
+    }
     
     func fetchFavorites() {
         favoriteMovies = fetchFavoriteMoviesUseCase.execute()

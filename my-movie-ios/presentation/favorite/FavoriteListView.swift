@@ -41,6 +41,7 @@ struct FavoriteListView: View {
                     }
                 }
             }
+            .onAppear(perform: viewModel.fetchFavorites)
             .navigationTitle("Favorite Movies")
         }
     }
