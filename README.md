@@ -6,7 +6,7 @@ This Apps utilize MVVM + Clean Architecture, structure below:
 - data -> data source and model from api or database
 
 STACK:
-SWIFT UI
-SWIFT
-Alamofire -> Network
-CoreData -> LocalData
+- SWIFT UI,
+- SWIFT,
+- Alamofire -> Network,
+- CoreData -> LocalData
