@@ -10,3 +10,4 @@ STACK:
 - SWIFT,
 - Alamofire -> Network,
 - CoreData -> LocalData
+- Sample Unit Test Usecase with Standard XCTest
