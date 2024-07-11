@@ -1,5 +1,10 @@
 # movie-catalog-ios
 
+How to run ?
+1. Clone it first
+2. execute pod install on the project folder by terminal
+3. open my-movie-ios.xcworkspace
+
 This Apps utilize MVVM + Clean Architecture, structure below:
 - presentation -> regarding ui and viewmodel
 - domain -> usecase and ui model
